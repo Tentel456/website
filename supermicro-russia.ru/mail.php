@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $phone = strip_tags(trim($_POST["phone"]));
     $article = strip_tags(trim($_POST["article"]));
     $message = trim($_POST["message"]);
-    $to_email = "fdu8808@gmail.com";
+    $to_email = "info@supermicrorussia.com";
 
     // Проверка данных
     if (empty($name) OR empty($phone) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
